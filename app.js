@@ -5,7 +5,7 @@ alanlar.forEach(alan => {
     alan.addEventListener('mouseenter', () => {
         const sesAdi = alan.dataset.sound;
         if (sesAdi) {
-            ses.src = `https://pub-4203e1ea3980402399369ab3ab779e98.r2.dev/sesler/${sesAdi}.wav`; 
+            ses.src = `https://pub-4203e1ea3980402399369ab3ab779e98.r2.dev/sesler/sesler/${sesAdi}.wav`; 
             sesOynatici.play();
         }
     });
@@ -16,5 +16,6 @@ alanlar.forEach(alan => {
     });
 
 });
+
 
 
